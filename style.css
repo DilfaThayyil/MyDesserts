@@ -1,0 +1,102 @@
+
+.navbar{
+    height: 90px;
+    border: 1px solid gray;
+}
+.carousel-inner img{
+    height: 600px;
+
+}
+.navbar-brand span{
+    color: rgb(12, 135, 135);
+}
+.carousel-caption h5{
+    font-size: 3.25rem;
+    
+}
+.card img{
+    height: 15rem;
+    
+}
+.card{
+    margin: 10px 10px;
+}
+h1{
+    padding: 2rem;
+}
+.cakes-section{
+    display: flex;
+    justify-content: center;
+}
+.cakes {
+    text-align: center;
+}
+.cookies-section{
+    display: flex;
+    justify-content: center;
+}
+.cookies {
+    text-align: center;
+}
+.brownies-section{
+    display: flex;
+    justify-content: center;
+}
+.brownies {
+    text-align: center;
+    
+}
+/* for mobile */
+@media screen and (max-width:600px){
+    .cakes-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cookies-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .brownies-section{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .footer a{
+        padding-top:0 ;
+    }
+}
+/* for tablet */
+@media screen and (width:768px) {
+    .cakes-section{
+        flex-wrap: wrap;
+    }
+    .cookies-section{
+        flex-wrap: wrap;
+    }
+    .brownies-section{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:425px) {
+    .carousel-inner img{
+        height: 400px;
+    }
+}
+@media screen and (max-width:375px) {
+    .carousel-inner img{
+        height: 290px;
+    }
+}
+@media screen and (max-width:320px) {
+    .carousel-inner img{
+        height: 250px;
+    }
+}
+.container{
+    background-color: whitesmoke;
+}
+
